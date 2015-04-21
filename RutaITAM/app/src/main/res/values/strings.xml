@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RutaITAM</string>
+    <string name="mensajeBienvenida">Muévete en el ITAM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="aboutUs">Sobre Nosotros</string>
+    <string name="origen">Origen:</string>
+    <string name="destino">Destino:</string>
+    <string name="ruta">¿Cómo llegar?</string>
+    <string name="title_activity_about_us">Lab. Móviles ITAM</string>
+    <string name="desarrolladores">Desarrolladores:</string>
+    <string name="des1">Miguel Ángel Casillas Maldonado</string>
+    <string name="des2">Cassandra Pratt Romero</string>
+    <string name="des3">Álvaro Casillas Maldonado</string>
+    <string name="des4">Daniel Gaviño Uriarte</string>
+    <string name="des5">Javier Rivera Maroñas</string>
+    <string name="des6">Juan Alberto Muro López</string>
+    <string name="des7">Jorge Enrique Gatica Fernández</string>
+    <string name="link">Sitio del laboratorio</string>
+	<string name="web">"Sitio del laboratorio:\n www.moviles.itam.mx"</string>
+</resources>

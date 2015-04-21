@@ -1,0 +1,75 @@
+Torniquetes_Pasillo Principal_10
+Pasillo Principal_Auditorio_10
+Torniquetes_Pasto 1_30
+Pasillo Principal_Cajeros_5
+Pasillo Principal_101-108_10
+Pasillo Principal_EscalerasA_10
+EscalerasA_109-110_5
+109-110_EscalerasB_5
+EscalerasB_111-113_5
+EscalerasB_SA_5
+SA_Cajeros_5
+SA_Plaza Amarilla_5
+EscalerasB_Pasillo CC_10
+Pasillo CC_Centro de Cómputo_5
+Centro de Cómputo_EscalerasD_5
+Pasillo CC_EscalerasC_10
+101-108_EscalerasE_5
+101-108_PB_10
+101-108_Pasto 1_10
+Pasto 1_PB_10
+Pasto 1_Estacionamiento_10
+Pasto 1_Servicio Médico_10
+Pasto 1_Pasto 2_10
+PB_Plaza Roja_15
+101-108_Plaza Roja_15
+Estacionamiento_Pasto 2_10
+Estacionamiento_Laboratorios/Cancha_15
+Servicio Médico_EscalerasM_5
+EscalerasM_Plaza Roja_5
+Pasto 2_Plaza Roja_10
+Pasto 2_Sala de Maestros_5
+Pasto 2_Laboratorios/Cancha_10
+Plaza Roja_Cafetería_5
+Plaza Roja_Librería_5
+Cafetería_Librería_5
+Cafetería_Sala de Maestros_5
+Librería_Pasillo CC_15
+Librería_Obelisco_10
+Librería_EscalerasL_5
+Obelisco_Pasillo CC_10
+Obelisco_Palmeras_15
+Cafetería_Palmeras_5
+Palmeras_Gimnasio_5
+Gimnasio_Laboratorios/Cancha_10
+EscalerasA_Biblioteca_5
+Biblioteca_Control de Listas_5
+201-208_EscalerasE_5
+Estadística_EscalerasE_5
+Estadística_Estudios Generales/Matemáticas_5
+Estudios Generales/Matemáticas_EscalerasM_5
+201-208_Lockers_5
+Lockers_EscalerasL_5
+Lockers_Servicios Escolares_5
+209-213_Control de Listas_5
+209-213_EscalerasB_5
+Control de Listas_201-208_5
+EscalerasB_Laboratorios de Ingeniería/Administración_10
+EscalerasB_Ingenierías/Dispositivos Móviles_10
+Laboratorios de Ingeniería/Administración_EscalerasC_5
+Ingenierías/Dispositivos Móviles_EscalerasC_5
+Ingenierías/Dispositivos Móviles_CC300/PACE_5
+CC300/PACE_EscalerasD_5
+EscalerasD_CC101-CC102_5
+EscalerasD_CC201-CC202_5
+EscalerasA_Salones B_5
+EscalerasA_309-313_5
+Salones B_301-308_10
+301-308_EscalerasE_5
+EscalerasE_Actuaría_5
+Actuaría_Estudios Generales/Matemáticas_5
+Estudios Generales/Matemáticas_EscalerasM_5
+309-313_EscalerasB_5
+EscalerasB_Economía_10
+301-308_309-313_5
+Economía_EscalerasC_5

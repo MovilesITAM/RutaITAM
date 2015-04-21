@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rutaitam.AboutUs" >
+
+    <TextView
+        android:id="@+id/tituloDesarrolladores"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/desarrolladores"
+        style="@style/Title" />
+	<TextView
+	    android:id="@+id/des1"
+        android:layout_width="match_parent"
+        android:layout_below="@id/tituloDesarrolladores"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/des1"
+        style="@style/desarrollador" />
+	<TextView
+	    android:id="@+id/des2"
+        android:layout_width="match_parent"
+        android:layout_below="@id/des1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/des2"
+        style="@style/desarrollador" />
+	<TextView
+	    android:id="@+id/des3"
+        android:layout_width="match_parent"
+        android:layout_below="@id/des2"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/des3"
+        style="@style/desarrollador" />
+	<TextView
+	    android:id="@+id/des4"
+        android:layout_width="match_parent"
+        android:layout_below="@id/des3"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/des4"
+        style="@style/desarrollador" />
+	<TextView
+	    android:id="@+id/des5"
+        android:layout_width="match_parent"
+        android:layout_below="@id/des4"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/des5"
+        style="@style/desarrollador" />
+	<TextView
+	    android:id="@+id/des6"
+        android:layout_width="match_parent"
+        android:layout_below="@id/des5"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/des6"
+        style="@style/desarrollador" />
+	<TextView
+	    android:id="@+id/des7"
+        android:layout_width="match_parent"
+        android:layout_below="@id/des6"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/des7"
+        style="@style/desarrollador" />
+	<TextView
+	    android:id="@+id/link"
+	    android:paddingTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/des7"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/web"
+        android:autoLink="web"
+        style="@style/link" />
+</RelativeLayout>

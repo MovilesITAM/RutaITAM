@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rutaitam.MainActivity" >
+
+    <TextView
+        android:id="@+id/mensajeBienvenida"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/mensajeBienvenida"
+        style="@style/Title"/>
+    <LinearLayout 
+        android:id="@+id/layoutOpciones"
+        android:layout_below="@id/mensajeBienvenida"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+	    <LinearLayout 
+	        android:id="@+id/layoutOrigen"
+	        android:orientation="vertical"
+	        android:gravity="center"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	        
+		    <TextView android:id="@+id/lblOrigen"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/origen"
+		        style="@style/texto" />
+		    
+		    <Spinner android:id="@+id/origen"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@android:drawable/btn_dropdown"/>
+		    
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:id="@+id/layoutDestino"
+	        android:orientation="vertical"
+	        android:gravity="center"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+		    
+		    <TextView android:id="@+id/lblDestino"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/destino"
+		        style="@style/texto" />
+		    
+		    <Spinner android:id="@+id/destino"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@android:drawable/btn_dropdown"/>
+		    
+	    </LinearLayout>
+	</LinearLayout>
+	<Button 
+	    android:id="@+id/btnRuta"
+	    android:layout_below="@id/layoutOpciones"
+	    android:layout_centerInParent="true"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#016F54"
+		android:textColor="#FFFFFF"
+		android:paddingRight="10sp"
+		android:paddingLeft="10sp"
+		android:text="@string/ruta"/>
+	<EditText
+	    android:id="@+id/txtRuta"
+	    android:layout_marginTop="20dp"
+	    android:layout_below="@id/btnRuta"
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textMultiLine"
+    	android:scrollHorizontally="false" />
+</RelativeLayout>
+<!-- From: file:/C:/Users/Lab/AndroidStudioProjects/RutaITAM/app/src/main/res/layout/activity_main.xml -->
